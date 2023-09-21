@@ -1,0 +1,624 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" href='https://mmwebfonts.comquas.com/fonts/?font=myanmar3' />
+  <link rel="stylesheet" href='https://mmwebfonts.comquas.com/fonts/?font=zawgyi' />  
+  <style type="text/css">
+    .zawgyi{
+      font-family:Zawgyi-One;
+    }
+    .unicode{
+      font-family:Myanmar3,Yunghkio,'Masterpiece Uni Sans';
+    }
+    body{
+      background-color: #3d3d3d;
+
+    }
+    pre{
+      font-size: 1rem;
+    }
+  </style>
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+
+<div class="col-md-10 mt-4 mx-auto">
+<nav aria-label="breadcrumb">
+  <ol class="breadcrumb bg-danger ">
+    <li class="breadcrumb-item"><a href="#" class="text-white">All Courses</a></li>
+    <li class="breadcrumb-item "><a href="#" class="text-white">Laravel Framework</a></li>
+    <li class="breadcrumb-item"><a href="./laravelDoc.html" class="text-white">Laravel Documentation</a></li>
+    <li class="breadcrumb-item active text-white" aria-current="page">Operators</li>
+
+  </ol>
+</nav>
+</div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <div class="col-md-11 mx-auto  mt-5">
+      <u style="color: white" ><h3 style="color:cyan;" class="my-3">Functions</h3></u>
+      <p class="zawgyi text-white">
+   Variable နဲ႔ လုပ္ေဆာင္ခ်က္ေတ တာဝန္ေတကို ခိုင္းေစလို႔မရပါဘူး။
+   လုပ္ေဆာင္ခ်က္ေတ တာဝန္ေတကို အလုပ္လုပ္ေစရန္ function ကို အသံုး ျပဳေပးရပါတယ္။
+   <br>
+javascript function တစ္ခုတည္ေဆာက္ရန္ function ဆိုတဲ့ keyword ေနာက္မွာ functionName နဲ႔ parameters ေတထည္႔ေပးရပါတယ္။
+</p><br>
+    <div class="card col-md-4">
+  <h6 class="card-header">Javascript Basic Function</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre class="zawgyi">
+  function doAlert(){
+    alert("Alerting !!!");
+  }
+
+
+  doAlert();       // call function
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div><br>
+<p class="zawgyi text-warning">
+  တည္ေဆာက္ထားတဲ႔ function က ဒီအတိုင္း သတ္မွတ္လိုက္ရံုနဲ႔ အလုပ္မလုပ္ေသးပါ။ function ကို (invoke) ေခၚယူအသံုးျပဳမွသာ အလုပ္လုပ္မွာျဖစ္ပါတယ္။
+</p>
+<br>
+ <br>
+  <hr color="white">
+
+
+   <u style="color: white" ><h3 style="color:cyan;" class="my-3">Function With Parameters </h3></u>
+      <p class="zawgyi text-white">
+   
+ function define လုပ္တဲ႔အခါမွာ ေပးတဲ႔ variable ေတကို <span class="text-warning">parameter</span> လို႔ ေခၚျပီး
+ function call တဲ႔ အခါ ေပးရတဲ႔ value ေတကို  <span class="text-warning">argument</span>  လို႔ ေခၚပါတယ္။
+
+ 
+</p>
+    <div class="card col-md-5">
+  <h6 class="card-header">Function with parameter </h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre class="zawgyi">
+ function add(a,b){    // a & b called parameter
+  console.log (a+b);
+}
+
+    add(3,4);          // answer -> 7  
+                       // 3 & 4 called arguments
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div> <br>
+    <div class="card col-md-6">
+  <h6 class="card-header">Function with parameter (another examples) with return keyword </h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre class="zawgyi">
+ function circle(r){
+  const PI = 3.14;
+  return PI * r * r;
+}
+
+ let ans = circle(4);
+ console.log(ans);        // 50.24
+
+ console.log(circle(4));  // 50.24
+
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div><br>
+   <div class="card col-md-4">
+  <h6 class="card-header">Javascript Function</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre class="zawgyi">
+ function sayHello(name){
+  console.log(`Hello ${name}`);
+}
+ sayHello("Joe")      // Hello Joe
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div><br>
+
+ <br>
+  <hr color="white">
+
+    <u style="color: white" ><h3 style="color:cyan;" class="my-3">Warning :: return</h3></u>
+      <div class="card col-md-7">
+  <h6 class="card-header">return keyword</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre>
+ function add(a,b){
+  console.log("Start adding");
+  return a+b;
+  console.log("Done adding");
+}
+ 
+ let result = add(1,2)    // Done adding will not be show in console
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div><br>
+      <p class="zawgyi text-warning">
+Function တစ္ခုမွာ return နဲ႔ ရလဒ္ကိုျပန္ေပးျပီးရင္ သူ႔အလုပ္ျပီးပါျပီ။
+<br>
+return ေအာက္မွာေရးထားတဲ႔ code ေတကို ဆက္အလုပ္မလုပ္ေပးေတာ့ပါ။
+ 
+</p><br>
+  
+<br>
+  <hr color="white">
+
+
+    <u style="color: white" ><h3 style="color:cyan;" class="my-3">Warning :: When giving arguments</h3></u>
+      <p class="zawgyi text-warning">
+ Arguments ေတ ေပးတဲ႔အခါမွာ အတိအက် ေပးရပါတယ္။ <br>
+ <span class="text-info"> Note  ::</span>  Argument ပိုေပးတဲ႔အခါ ပိုတာေတကို ဒီအတိုင္းထားပါတယ္။အလုပ္မလုပ္ပါ။
+   <br>
+
+</p><br>
+    <div class="card col-md-5">
+  <h6 class="card-header">Giving Arguments</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre>
+ function add(a,b){
+  return a+b;
+}
+
+ add(1,2,3,4);     // 3
+ add(1);           // NaN
+        
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div><br>
+  <p class="zawgyi text-warning">
+ Arguments ေပးတာလိုတဲ႔အခါမွာေတာ့ Error တက္ပါတယ္။ undefined or NaN 
+
+</p><br>
+ <u style="color: white" ><h3 style="color:cyan;" class="my-3">Default Parameter</h3></u>
+ <p class="zawgyi text-warning">
+ Default Parameter ေပးထားရင္ေတာ့ Arguments ေပးတာလိုရင္လဲ ျပႆနာ မရွိပါဘူး။
+
+</p>
+   <div class="card col-md-4 mt-4">
+  <h6 class="card-header">Function Default Parameter</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre>
+ function add(a,b=1){
+  return a+b;
+}
+
+ add(1,2)      // 3
+ add(1)        // 2
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div><br>
+<p class="zawgyi text-warning">
+ Argument မ ေပးရင္ default parameter သတ္မွတ္ထားတဲ႔ value နဲ႔ဘဲ အလုပ္လုပ္ ေပးမွာပါ။
+</p><br>
+ <u style="color: white" ><h3 style="color:cyan;" class="my-3">Rest Parameter (...paraname)</h3></u>
+ <p class="zawgyi text-white">
+ ပါလာသမ်ွ argument တန္ဖိုးအားလံုးကို လက္ခံေပးႏိုင္တဲ႔ parameter ပါ။<br>
+ <span class="text-warning"> ...paraname</span>  ဆိုျပီး အသံုးျပဳရပါတယ္။
+
+</p>
+   <div class="card col-md-7 mt-4">
+  <h6 class="card-header">Rest Parameter</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre>
+ function add(a,b,...c){
+  console.log(c);
+}
+  
+ add(1,2,3,4,5)          // [3,4,5]
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div>
+  <p class="zawgyi text-warning">
+ပိုတဲ႔ argument ေတကို "c" က လက္ခံေပးထားပါတယ္။
+
+</p>
+<br>
+ <br>
+  <hr color="white">
+
+    <u style="color: white" ><h3 style="color:cyan;" class="my-3 col-md-10">Anonymous Function (Nameless function) </h3></u>
+    <p class="zawgyi text-white">
+ Function name ေပးစရာမလိုဘဲ variable ထဲမွာ function ကို assign လုပ္ျပီး 
+ variable က ေန function call ျပန္ေခၚတာကို nameless function လို႔လဲ ေခၚပါတယ္။
+   <br>
+ 
+</p><br>
+    <div class="card col-md-4">
+  <h6 class="card-header">Anonymous Function</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre>
+ let greet = function(){
+  console.log("Hello World")
+}
+
+
+ greet();
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div>
+    
+<br>
+ <br>
+  <hr color="white">
+    <u style="color: white" ><h3 style="color:cyan;" class="my-3">IIFE ( Immediately Invoked Function Expression ) </h3></u>
+      <p class="zawgyi text-white">
+  Function အလုပ္လုပ္ေအာင္ ေခၚစရာမလိုဘဲ သူ႔ဘာသာ auto ခ်က္ခ်င္းေခၚတဲ႔ function ကို  IIFE function လို႔ ေခၚပါတယ္။
+   <br>
+
+</p>
+    <div class="card col-md-6">
+  <h6 class="card-header">Javascript</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre>
+
+(function(){
+  console.log("Hello World")
+})()
+
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div><br>
+ <p class="zawgyi text-warning">
+  Function call ေခၚစရာမလိုဘဲ Console မွာ Hello World ထုတ္ေပးပါလိမ္မယ္။
+   
+
+</p>
+<br>
+ <br>
+  <hr color="white">
+   <u style="color: white" ><h3 style="color:cyan;" class="my-3">Callback Function </h3></u>
+   <!-- <div class="card">
+     <div class="card-header">Calling Function with callback function</div>
+     <div class="card-body">
+       twice (number,function)
+     </div>
+   </div>  -->
+      <p class="zawgyi text-white">
+   ဥပမာ functionOne နဲ႔ functionTwo ဆိုျပီး function နွစ္ခုရွိတယ္ဆိုပါေတာ့။ <br>
+   functionOne ကို ေခၚတဲ႔အခါ functionTwo ကို argument အ ေနနဲ႔ ထည္႔ ေပးျပီး funtionOne ထဲမွာ functionTwo ကို ထည္႔အလုပ္လုပ္ေစတာကို Callback function လို႔ ေခၚပါတယ္။
+   <br>
+</p>
+    <div class="card col-md-6">
+  <h6 class="card-header">Javascript</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre>
+// *** Declaring callback function ***//
+
+  function twice(num,fun){
+   let result = fun(num)        // 6
+   return result * 2            // 12
+}
+
+
+// *** Calling callback function ***//
+ 
+  twice( 5 ,function(x){
+  return x+1;               // 6
+});
+  <hr style="height: 2px; border-width: 0; color: gray;background-color: gray;">
+
+// The above example without callback will be same the following
+
+  function twice(num){
+   let result = function(){ return x+ 1};  // 6
+   return result * 2;                      // 12
+}
+
+  twice(5);
+     </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div><br>
+   <u style="color: white" ><h3 style="color:cyan;" class="my-3 zawgyi">Callback Function ၏ အားသာခ်က္  </h3></u>
+
+   <p class="zawgyi text-white">
+   Javascript function ေတဟာ  ၾကိဳေရးထားတဲ႔အတိုင္း ပံုေသမဟုတ္ေတာ့ဘဲ ေခၚယူခ်ိန္မွာ လိုအပ္သလို ေျပာင္းလဲ အလုပ္လုပ္ေစနိုင္တဲ႔ function ေတ ျဖစ္လာပါတယ္။  <br><br>
+   Example
+ </p>
+   <br>
+    <div class="card col-md-6">
+  <h6 class="card-header">Dyanamic callback function (example)</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre>
+  function twice(num,fun){
+   let result = fun(num)        
+   return result * 2            
+
+  twice(5,function(x){ 
+    return x + 1;         
+  });                   // return answer will be 12
+
+  twice(5,function(x){ 
+    return x * x;         
+  });                   // return answer will be 50
+
+  twice(5,function(x){ 
+    return x -1;         
+  });                   // return answer will be 8
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div>
+
+<br>
+ <br>
+ <hr color="white">
+    <u style="color: white" ><h3 style="color:cyan;" class="my-3 zawgyi">Arrow Function (function အတိုေကာက္) ေရးနည္း</h3></u><br>
+      <p class="zawgyi text-warning">
+ 1. ( ) ေရွ႔က function keyword ကိုဖယ္ျပီး ( ) ေနာက္မွာ => ထည္႔ ေပးရပါတယ္။
+   <br>
+
+</p>
+    <div class="card col-md-6">
+  <h6 class="card-header">Arrow Function</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre>
+// anonymous function 
+
+  let add = function(a,b){
+   return a+b;         
+}
+
+
+// arrow function
+  
+  let add = (a,b) => {
+   return a+b;
+}
+
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div>
+ <br>
+   <p class="zawgyi text-warning">
+2. function မွာ Statement တစ္ေၾကာင္းဘဲရွိရင္
+   <br> { } မလို ၊ return မထည္႔ဘဲေရးလို႔ရပါတယ္။ auto return ျပန္ေပးပါတယ္။
+
+
+</p>
+ <div class="card col-md-6 mt-4">
+  <h6 class="card-header">Arrow Function</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre>
+ let add = (a,b) => a+b        // add(3,4)
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div><br>
+ <p class="zawgyi text-warning">
+3. parameter တစ္ခုထဲ ဆိုရင္ () မထည္႔လို႔ရပါေသးတယ္။
+
+
+</p>
+ <div class="card col-md-6 mt-4">
+  <h6 class="card-header">Arrow Function</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre>
+ let two = n => n*2        // two(4)
+       </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div><br>
+ <p class="zawgyi text-warning">
+4. parameter မရွိရင္ေတာ့ () ထည္ေပးရပါမယ္။
+
+
+</p>
+ <div class="card col-md-6 mt-4">
+  <h6 class="card-header">Arrow Function</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre>
+ let hello = () => "Hello World";
+
+ let hello = _ => "Hello World";   //can also like thats
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div>
+
+<br>
+ <br>
+  <hr color="white">
+   <u style="color: white" ><h3 style="color:cyan;" class="my-3">Writing Callback with arrow function</h3></u>
+  
+     <div class="card col-md-6">
+  <h6 class="card-header">Javascript</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre>
+// *** Declaring normal callback function ***//
+
+  function twice(num,fun){
+   let result = fun(num)        // 6
+   return result * 2            // 12
+}
+
+
+// *** Calling callback function ***//
+ 
+  twice( 5 ,function(x){
+  return x+1;               // 6
+});
+  <hr style="height: 2px; border-width: 0; color: gray;background-color: gray;">
+
+<h5>Callback with arrow function</h5>
+
+ // *** Declaring arrow callback function ***//
+
+  let twice = (n,f) => f(n) * 2 
+
+
+
+// *** Calling callback function with arrow function ***//
+ 
+  twice(5,(x)=> x+1)
+     </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div><br><br>
+  <hr color="white">
+  <u style="color: white" ><h3 style="color:cyan;" class="my-3">IIFE ( Immediately Invoked Function Expression ) writing with arrow function </h3></u>
+      <p class="zawgyi text-white">
+  Function အလုပ္လုပ္ေအာင္ ေခၚစရာမလိုဘဲ သူ႔ဘာသာ auto ခ်က္ခ်င္းေခၚတဲ႔ function ကို  IIFE function လို႔ ေခၚပါတယ္။ အ ေပၚမွာ ရိုးရိုး function နဲ႔ ေရးနည္းျပျပီးပါျပီ။ 
+   <br>
+ Arrow Function နွင့္ ေအာက္ပါအတိုင္းေရးနိုင္ပါတယ္။
+</p>
+    <div class="card col-md-5">
+  <h6 class="card-header">IIFE with arrow function</h6>
+  <div class="card-body m-0 p-0">
+    <!-- <h6 class="card-title">Special title treatment</h6> -->
+    <p>
+      <code>
+        <pre>
+
+(() => console.log("Hello World"))();
+
+      </pre>
+      </code>
+    </p>
+   
+  </div>
+
+</div><br>
+ <p class="zawgyi text-warning">
+  Function call ေခၚစရာမလိုဘဲ Console မွာ Hello World ထုတ္ေပးပါလိမ္မယ္။
+   
+
+</p>
+<br>
+ <br>
+  <hr color="white">
+
+    </div>
+      
+
+
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  
+
+  </body>
+</html>
